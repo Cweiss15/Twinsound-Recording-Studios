@@ -1,0 +1,221 @@
+/*  JavaScript 7th Edition
+    Chapter 3
+    Chapter case
+
+    Tipton Turbines
+    Large format style sheet
+
+    Filename: turbines.css
+*/
+
+/* apply a natural box layout model to all elements */
+* {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+/* reset rules */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+
+body {
+   line-height: 1;
+   width: 960px;
+   background: linear-gradient(45deg, rgba(244, 152, 237, 0.44), rgba(255, 38, 193, 0.41), rgba(169, 56, 225, 0.58), rgba(58, 118, 186, 0.6));
+   margin: 0 auto;
+   font-family: "Maven Pro", arial, helvetica, sans-serif;
+   font-weight: 400;
+   position: relative;
+}
+
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+
+/* page header */
+header nav {
+    margin-top: 10px;
+}
+
+#header {
+    min-height: 50px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.6); /* White with 60% opacity */
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Ensures it stays above other content */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+#header:hover {
+    background-color: rgb(255, 255, 255); /* Fully opaque on hover */
+}
+/* navigation */
+nav ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+    font-family: Arial, sans-serif;
+}
+
+nav li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 15px;
+
+}
+
+nav ul li a {
+    color: black;
+    font-weight: 20;
+    padding: 10px 15px;
+    display: block;
+    transition: background 0.3s ease, color 0.3s ease;
+    border-radius: 50px;
+    border: 2px solid black;
+    z-index: 1;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 0 3px 4px rgb(101, 98, 99);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    background: linear-gradient(45deg, rgba(244, 152, 237, 0.5), #ff26c1, #a938e1, #3a76ba);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: background 0.3s ease;
+    box-shadow: 0 3px 4px rgb(101, 98, 99);
+
+}
+/* main content */
+article {
+   background: linear-gradient(45deg, rgba(244, 152, 237, 0.44), rgba(255, 38, 193, 0.41), rgba(169, 56, 225, 0.58), rgba(58, 118, 186, 0.6));
+   border-top: 1px solid black;
+}
+
+article h2 {
+   font-size: 1.2em;
+   font-weight: bold;
+   width: 182px;
+   text-align: center;
+   padding: 10px 5px 0;
+}
+
+article p {
+   margin-bottom: 6px;
+   line-height: 1.2em;
+}
+
+article table {
+   width: 100%;
+   text-align: center;
+   table-layout: fixed;
+	margin-bottom: 15px;
+	background: linear-gradient(45deg, rgba(244, 152, 237, 0.44), rgba(255, 38, 193, 0.41), rgba(169, 56, 225, 0.58), rgba(58, 118, 186, 0.6));
+}
+
+article table caption {
+   padding: 5px;
+   width: 182px;
+}
+
+article th, article td {
+   border: 1px solid black;
+   border-collapse: collapse;
+   padding: 0px;
+   width: 14.2857%;
+}
+
+article table td {
+	min-height: 50px;
+}
+article tr td:first-of-type, article tr th:first-of-type {
+   border-left: 0;
+}
+
+article tr td:last-of-type, article tr th:last-of-type {
+   border-right: 0;
+}
+
+article th {
+   font-weight: 700;
+   background: #ffffff;
+}
+
+article td {
+	background-color: ivory;
+}
+
+article td h1 {
+	font-weight: bold;
+	font-size: 0.9em;
+	text-align: right;
+	margin: 0;
+	padding: 2px 12px 2px 0;
+	background-color: rgba(43,37,37,1.00);
+	color: white;
+}
+
+article td p {
+	font-size: 0.9em;
+	text-align: left;
+	margin: 0px;
+	padding: 7px 3px 30px 10px;	
+}
+
+article td p.available, article tfoot td:nth-of-type(1) {
+	background-color: rgba(255, 38, 193, 0.48);
+}
+
+
+
+article td p.booked, article tfoot td:nth-of-type(2) {
+	background-color: rgba(169, 56, 225, 0.71);
+}
+
+article td p.available:hover {
+   color: white;
+}
+
+tbody {
+	border-bottom: 15px solid ivory;
+}
+
+
+tfoot tr td {
+	border: 0px solid white;
+	padding: 10px 0;
+}
