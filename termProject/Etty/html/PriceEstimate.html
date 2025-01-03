@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        Twinsound Recording Studios
+        Price Estimate web page
+        Author: Chana Pesha Mandel
+        Date: 12/25/2024
+
+        Filename: PriceEstimate.html
+    -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <title>Twinsound Recording Studio - Price Calculator</title>
+    <link href="http://fonts.googleapis.com/css?family=Maven+Pro:400,700,900" rel="stylesheet" type="text/css">
+    <link href="../css/PriceForm.css" rel="stylesheet"/>
+    <script src ="../js/priceCalculator.js" defer></script>
+</head>
+
+<body>
+<div>
+    <header id="header">
+        <h1><a id="logo" href="tr_start.html"><img src="../images/tr_top_logo2-removebg-preview.png"
+                                                   alt="Twinsound Recording Studios"/></a></h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li id="book"><a href="bookings.html"> Book a Session</a></li>
+            <li><a href="#intro">About</a></li>
+            <li><a href="#map">Location</a></li>
+            <li><a href="">Reviews</a></li>
+            <li><a href="PriceEstimate.html">Pricing</a></li>
+            <li><a href="mailto:twinsound1026@gmail.com">Contact &#9993;</a></li>
+        </ul>
+    </nav>
+
+    <article>
+        <h2>Price Calculator</h2>
+        <form>
+            <fieldset>
+                <legend><span>Amount of Time</span></legend>
+                <input type="number" id="hours" min="1"/> <!--//name="hours"-->
+                <label for="hours">
+                    <p>How many hours do you need to record?</p>
+                    <p>$100/hour</p>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend><span>Amount of People</span></legend>
+                <input type="number" id="people" min="1"/>
+                <label for="people">
+                    <p>How many people will be recording?</p>
+                    <p>Over 3 people is $25 per additional person</p>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend><span>Sound</span></legend>
+                <input type="radio" name="sound" id="soundtrack"/>
+                <label for="soundtrack">
+                    <p>Soundtrack</p>
+                    <p> $75</p>
+                </label>
+
+                <input type="radio" name="sound" id="vocalRemover"/>
+                <label for="vocalRemover">
+                    <p>Vocal Remover</p>
+                    <p>$25</p>
+                </label>
+
+                <input type="radio" name="sound" id="noSound"/>
+                <label for="noSound">
+                    <p>Neither</p>
+                </label>
+            </fieldset>
+        </form>
+    </article>
+
+    <aside>
+        <p>Total Price: <span id="totalPrice"></span></p>
+    </aside>
+
+    <footer>
+        Twinsound Recording Studios &#8226; 1946 52nd st. Brooklyn N.Y&nbsp; 11204 &#8226; 917-635-4431
+    </footer>
+
+</div>
+</body>
+</html>
+
+
+
+
