@@ -12,7 +12,7 @@
 // Days of the week
 let weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday",
     "Thursday", "Friday", "Saturday"];
-
+let userName = "";
 
 // Function to write weekday names into the calendar
 function addWeekDays() {
@@ -67,7 +67,8 @@ function showTimes() {
             if (paragraph.classList.contains('available')) {
                 paragraph.classList.remove('available');
                 paragraph.classList.add('booked');
-                paragraph.innerHTML = "<br/>Booked<br/>" + timeStart[i] + " - " + timeEnd[i];
+                paragraph.innerHTML = "<br/>Booked by " + userName + "<br/>" + timeStart[i] + " - " + timeEnd[i];
+
             } else if (paragraph.classList.contains('booked')) {
                 paragraph.classList.remove('booked');
                 paragraph.classList.add('available');
@@ -76,3 +77,6 @@ function showTimes() {
         });
     }
 }
+window.addEventListener("load", function() {
+    userName = prompt("Please enter your name to view available times and to book:");
+});
