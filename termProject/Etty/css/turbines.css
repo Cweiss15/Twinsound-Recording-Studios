@@ -63,6 +63,13 @@ header nav {
     margin-top: 10px;
 }
 
+header img {
+    float: none;
+    width: 50%;
+    margin: 2% 2% 0 2%;
+    resize: inline;
+}
+
 #header {
     align-items: center;
     min-height: 50px;
@@ -229,4 +236,9 @@ tbody {
 tfoot tr td {
     border: 0px solid white;
     padding: 10px 0;
+}
+footer {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }

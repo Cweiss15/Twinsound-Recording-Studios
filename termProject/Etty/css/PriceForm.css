@@ -62,14 +62,24 @@ header nav {
 #header {
     min-height: 40px;
     display: flex;
-    position: sticky;
     top: 0;
-    background-color: rgba(255, 255, 255, 0.6); /* White with 60% opacity */
+    background-color: rgb(255, 255, 255);
     padding: 10px 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     z-index: 1000; /* Ensures it stays above other content */
     transition: background-color 0.3s; /* Smooth transition */
+  width: 100vw;
+  position: fixed;
+  left: 0;
+
 }
+header img {
+    float: none;
+    width: 50%;
+    margin: 2% 2% 0 2%;
+    resize: inline;
+}
+
 
 #header:hover {
     background-color: rgb(255, 255, 255); /* Fully opaque on hover */
@@ -87,7 +97,9 @@ nav ul {
 nav li {
     float: left;
     display: inline;
-    padding: 5px 20px 5px 15px;
+    padding: 0 20px 0 15px;
+    padding-top: 30px;
+
 }
 
 nav ul li a {
@@ -118,6 +130,7 @@ nav ul li a:hover {
 
 /* main content */
 article {
+    margin-top: 130px;
    background: linear-gradient(45deg, rgba(244, 152, 237, 0.44), rgba(255, 38, 193, 0.41), rgba(169, 56, 225, 0.58), rgba(58, 118, 186, 0.6));
    border-top: 1px solid black;
 }
