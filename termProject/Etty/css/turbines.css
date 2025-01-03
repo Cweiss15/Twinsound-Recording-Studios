@@ -64,15 +64,19 @@ header nav {
 }
 
 #header {
+    align-items: center;
     min-height: 50px;
     display: flex;
     position: sticky;
     top: 0;
-    background-color: rgba(255, 255, 255, 0.6); /* White with 60% opacity */
+    left: 0;
+    background-color: rgb(255, 255, 255); /* White with 60% opacity */
     padding: 10px 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     z-index: 1000; /* Ensures it stays above other content */
     transition: background-color 0.3s; /* Smooth transition */
+    width: 100%;
+
 }
 
 #header:hover {
