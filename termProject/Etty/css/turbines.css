@@ -45,9 +45,9 @@ footer, header, hgroup, menu, nav, section {
 
 body {
    line-height: 1;
-   width: 960px;
-   background: linear-gradient(45deg, rgba(244, 152, 237, 0.44), rgba(255, 38, 193, 0.41), rgba(169, 56, 225, 0.58), rgba(58, 118, 186, 0.6));
-   margin: 0 auto;
+   width: 100%;
+ background: white;
+ margin: 0 auto;
    font-family: "Maven Pro", arial, helvetica, sans-serif;
    font-weight: 400;
    position: relative;
@@ -113,7 +113,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background: linear-gradient(45deg, rgba(244, 152, 237, 0.5), #ff26c1, #a938e1, #3a76ba);
+ background: linear-gradient(45deg, rgba(244, 152, 237, 0.5), #ff26c1, #a938e1, #3a76ba);
     -webkit-background-clip: text;
     color: transparent;
     transition: background 0.3s ease;
@@ -121,10 +121,7 @@ nav ul li a:hover {
 
 }
 /* main content */
-article {
-   background: linear-gradient(45deg, rgba(244, 152, 237, 0.44), rgba(255, 38, 193, 0.41), rgba(169, 56, 225, 0.58), rgba(58, 118, 186, 0.6));
-   border-top: 1px solid black;
-}
+
 
 article h2 {
    font-size: 1.2em;
@@ -144,7 +141,7 @@ article table {
    text-align: center;
    table-layout: fixed;
 	margin-bottom: 15px;
-	background: linear-gradient(45deg, rgba(244, 152, 237, 0.44), rgba(255, 38, 193, 0.41), rgba(169, 56, 225, 0.58), rgba(58, 118, 186, 0.6));
+	background: linear-gradient(45deg, rgba(244, 152, 237, 0.1), rgba(255, 38, 193, 0.1), rgba(169, 56, 225, 0.1), rgba(58, 118, 186, 0.1));
 }
 
 article table caption {
@@ -176,7 +173,7 @@ article th {
 }
 
 article td {
-	background-color: ivory;
+    background-color: rgb(234, 204, 234);
 }
 
 article td h1 {
@@ -197,21 +194,29 @@ article td p {
 }
 
 article td p.available, article tfoot td:nth-of-type(1) {
-	background-color: rgba(255, 38, 193, 0.48);
+	background-color: white;
+    background-color: rgba(255, 38, 193, 0.48);
 }
 
 
 
 article td p.booked, article tfoot td:nth-of-type(2) {
-	background-color: rgba(169, 56, 225, 0.71);
+	background-color: white;
+    background-color: rgba(169, 56, 225, 0.71);
 }
 
 article td p.available:hover {
    color: white;
+    background: radial-gradient(rgba(255, 38, 193, 0.48), rgba(169, 56, 225, 0.71))
+}
+
+article td p.booked:hover {
+   color: white;
+    background: radial-gradient(rgba(255, 38, 193, 0.48), rgba(169, 56, 225, 0.71))
 }
 
 tbody {
-	border-bottom: 15px solid ivory;
+	border-bottom: 15px solid white;
 }
 
 
