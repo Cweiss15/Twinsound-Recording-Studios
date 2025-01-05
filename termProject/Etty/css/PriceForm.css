@@ -84,49 +84,6 @@ header img {
 #header:hover {
     background-color: rgb(255, 255, 255); /* Fully opaque on hover */
 }
-/* navigation */
-nav ul {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    list-style: none;
-    font-family: Arial, sans-serif;
-}
-
-nav li {
-    float: left;
-    display: inline;
-    padding: 0 20px 0 15px;
-    padding-top: 30px;
-
-}
-
-nav ul li a {
-    color: black;
-    font-weight: 20;
-    padding: 10px 15px;
-    display: block;
-    transition: background 0.3s ease, color 0.3s ease;
-    border-radius: 50px;
-    border: 2px solid black;
-    z-index: 1;
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-    box-shadow: 0 3px 4px rgb(101, 98, 99);
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 16px;
-}
-
-nav ul li a:hover {
-    background: linear-gradient(45deg, rgba(244, 152, 237, 0.5), #ff26c1, #a938e1, #3a76ba);
-    -webkit-background-clip: text;
-    color: transparent;
-    transition: background 0.3s ease;
-    box-shadow: 0 3px 4px rgb(101, 98, 99);
-
-}
 
 /* main content */
 article {
@@ -223,10 +180,4 @@ aside p {
 
 aside #totalPrice {
    font-weight: bold;
-}
-
-footer {
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
 }
