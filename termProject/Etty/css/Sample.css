@@ -134,13 +134,12 @@ a {
 
 #our-word {
     font-size: xxx-large;
-    padding-top: 2100px;
-    padding-bottom: 0px;
+    padding-top: 300px;
     color: #ff26c1;
     padding-left: 100px;
-    margin-bottom: 0px;
+    margin-bottom: -115px;
     z-index: 3;
-    position: absolute;
+    position: relative;
     top: -100px;
     text-shadow: 2px 2px 4px #bab6bc;
 }
@@ -149,10 +148,10 @@ a {
     font-size: xx-large;
     margin-bottom: -120px;
     padding-left: 100px;
-    padding-top: 300px;
     text-align: left;
     z-index: 3;
     position: relative;
     color: #1a191a;
     text-shadow: 2px 2px 4px #bab6bc;
+    padding-top: 0;
 }

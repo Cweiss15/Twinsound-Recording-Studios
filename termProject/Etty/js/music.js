@@ -9,6 +9,6 @@ let descriptions = document.getElementsByClassName('description');
 for (let i = 0; i < items.length; i++) {
 items[i].addEventListener('click', function() {
 // Toggle the corresponding description's visibility
-descriptions[i].style.display = (descriptions[i].style.display == 'block') ? 'none' : 'block';
+descriptions[i].style.display = (descriptions[i].style.display === 'block') ? 'none' : 'block';
 });
 }
