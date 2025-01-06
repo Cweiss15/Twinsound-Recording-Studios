@@ -12,25 +12,21 @@
    box-sizing: border-box;
 }
 
-/* reset rules */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+/* reset rules*/
+html, body, div, span, h1, h2, p,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
+b, u, i, center, dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
+table, caption, tbody, tfoot, thead,
 article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+figure, footer, header, hgroup,
+menu, nav, output, ruby, section, summary, time
+{
    margin: 0;
    padding: 0;
    border: 0;
-   font-size: 100%;
-   font: inherit;
    vertical-align: baseline;
 }
 
@@ -90,7 +86,7 @@ nav li {
     padding: 5px 20px 5px 15px;
 }
 
-nav ul li a {
+nav ul li a{
     color: black;
     font-weight: 20;
     padding: 10px 15px;
@@ -206,14 +202,52 @@ aside p {
    padding: 10px;
    text-align: left;
    font-size: 1.2em;
+   position: relative;
+}
+aside.button {
+    display: inline-block;
+    float: right;
+    vertical-align: middle;
 }
 
 aside #totalPrice {
    font-weight: bold;
+    padding-right: 15px;
 }
 
 footer {
     text-align: center;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+.overlay {
+    display: none;
+    position: fixed; /* Cover the entire viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255,10,160,0.7);
+    z-index: 1000;
+}
+
+.overlayText {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%; /* Fill most of the screen width */
+    height: 80%; /* Fill most of the screen height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center; /* Center the text */
+    font-size: 2em; /* Make the font larger */
+}
+
+.overlayText p {
+    margin: 10px 0;
 }
