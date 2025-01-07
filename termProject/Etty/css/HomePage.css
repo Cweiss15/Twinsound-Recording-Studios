@@ -283,6 +283,7 @@ div p {
     align-items: center;
     background: rgba(255, 10, 160, 0.7);
     z-index: 1000;
+
 }
 
 .overlayText {
@@ -297,8 +298,14 @@ div p {
     align-items: center;
     text-align: center; /* Center the text */
     font-size: 2em; /* Make the font larger */
+    background-image: url("../images/overlayPhoto.png");
+    background-size: cover;
+
 }
 
 .overlayText p {
     margin: 10px 0;
+    color: black;
+    text-shadow: 2px 2px 4px #ffffff;
 }
+
