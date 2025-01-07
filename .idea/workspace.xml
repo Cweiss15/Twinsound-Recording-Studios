@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96f758ee-1d16-4552-934a-abeea4e989c1" name="Changes" comment="did the reviews and relinked all header reviews button to lead to the reviews.fixed up some css">
+    <list default="true" id="96f758ee-1d16-4552-934a-abeea4e989c1" name="Changes" comment="did the reviews and relinked all header reviews button to lead to the reviews.fixed up some css and mad one main css with the navigation styles and linked it to all pages.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/termProject/Etty/css/MusicStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/termProject/Etty/css/MusicStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/termProject/Etty/css/PriceForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/termProject/Etty/css/PriceForm.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/termProject/Etty/css/Sample.css" beforeDir="false" afterPath="$PROJECT_DIR$/termProject/Etty/css/HomePage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/termProject/Etty/css/turbines.css" beforeDir="false" afterPath="$PROJECT_DIR$/termProject/Etty/css/turbines.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/termProject/Etty/html/PriceEstimate.html" beforeDir="false" afterPath="$PROJECT_DIR$/termProject/Etty/html/PriceEstimate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/termProject/Etty/html/bookings.html" beforeDir="false" afterPath="$PROJECT_DIR$/termProject/Etty/html/bookings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/termProject/Etty/html/homePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/termProject/Etty/html/homePage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +133,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736110939410</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="did the reviews and relinked all header reviews button to lead to the reviews.fixed up some css and mad one main css with the navigation styles and linked it to all pages.">
+      <option name="closed" value="true" />
+      <created>1736113340794</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736113340794</updated>
+    </task>
+    <task id="LOCAL-00006" summary="did the reviews and relinked all header reviews button to lead to the reviews.fixed up some css and mad one main css with the navigation styles and linked it to all pages.">
+      <option name="closed" value="true" />
+      <created>1736113499227</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1736113499227</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +172,7 @@
     <MESSAGE value="fixed up the headers on all pages and linked the homepage when you click the logo" />
     <MESSAGE value="did the reviews and relinked all header reviews button to lead to the reviews." />
     <MESSAGE value="did the reviews and relinked all header reviews button to lead to the reviews.fixed up some css" />
-    <option name="LAST_COMMIT_MESSAGE" value="did the reviews and relinked all header reviews button to lead to the reviews.fixed up some css" />
+    <MESSAGE value="did the reviews and relinked all header reviews button to lead to the reviews.fixed up some css and mad one main css with the navigation styles and linked it to all pages." />
+    <option name="LAST_COMMIT_MESSAGE" value="did the reviews and relinked all header reviews button to lead to the reviews.fixed up some css and mad one main css with the navigation styles and linked it to all pages." />
   </component>
 </project>
