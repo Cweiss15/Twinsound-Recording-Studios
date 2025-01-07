@@ -54,10 +54,15 @@ musicButton.textContent= "Click Me"
 
 // add the image for the button
 const notesImage = document.createElement("img");
+musicButton.appendChild(notesImage);
+
+musicButton.innerHTML = '<img src="../images/playpause.png" alt="Button Image" style="width: 25px; height: 25px;">\n' +
+    '\n' ;
+
 
 // Append the button to the aside
-const aside = document.getElementById("asideTotal");
-aside.appendChild(musicButton);
+const button = document.getElementById("button");
+button.appendChild(musicButton);
 
 //Overlay
 let overlay = document.getElementById("overlay");
