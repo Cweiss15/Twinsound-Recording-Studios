@@ -4,25 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96f758ee-1d16-4552-934a-abeea4e989c1" name="Changes" comment="" />
+    <list default="true" id="96f758ee-1d16-4552-934a-abeea4e989c1" name="Changes" comment="did the reviews and relinked all header reviews button to lead to the reviews.fixed up some css and mad one main css with the navigation styles and linked it to all pages.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Cweiss15 &lt;cweiss15@student.touro.edu&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Cweiss15&quot;
+    &quot;assignee&quot;: &quot;ChanaMandel&quot;
   }
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Cweiss15/TermProject.git&quot;,
-    &quot;accountId&quot;: &quot;24699dcf-b5ed-4801-8f6c-dfee35a7d34d&quot;
+    &quot;url&quot;: &quot;https://github.com/Cweiss15/TermProject&quot;,
+    &quot;accountId&quot;: &quot;ecceb8be-530d-4544-bd07-1c94eb9393ba&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -33,20 +40,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/chana/PycharmProjects/TermProject&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.PriceEstimate.html.executor": "Run",
+    "JavaScript Debug.bookings.html.executor": "Run",
+    "JavaScript Debug.homePage.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/chana/PycharmProjects/TermProject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\chana\PycharmProjects\TermProject" />
@@ -54,6 +64,11 @@
       <recent name="C:\Users\chana\PycharmProjects\TermProject\Etty\css" />
       <recent name="C:\Users\chana\PycharmProjects\TermProject\Etty\js" />
       <recent name="C:\Users\chana\PycharmProjects\TermProject\Etty\html" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ettyw\PycharmProjects\TermProject7\termProject\Etty\css" />
+      <recent name="C:\Users\ettyw\PycharmProjects\TermProject7\termProject\Etty\html" />
+      <recent name="C:\Users\ettyw\PycharmProjects\TermProject7\termProject\Etty\images" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -82,10 +97,59 @@
       <workItem from="1734294415492" duration="48000" />
       <workItem from="1734391271145" duration="10000" />
       <workItem from="1734643752679" duration="5915000" />
-      <workItem from="1734651251187" duration="3455000" />
-      <workItem from="1735860755007" duration="520000" />
-      <workItem from="1735864959542" duration="706000" />
+      <workItem from="1735167495412" duration="20766000" />
+      <workItem from="1735845400408" duration="4326000" />
+      <workItem from="1735860951455" duration="1374000" />
     </task>
+    <task id="LOCAL-00001" summary="Price form pages">
+      <option name="closed" value="true" />
+      <created>1735865340207</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735865340207</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fixed up the headers on all pages and linked the homepage when you click the logo">
+      <option name="closed" value="true" />
+      <created>1735883053999</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735883053999</updated>
+    </task>
+    <task id="LOCAL-00003" summary="did the reviews and relinked all header reviews button to lead to the reviews.">
+      <option name="closed" value="true" />
+      <created>1736109763180</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736109763180</updated>
+    </task>
+    <task id="LOCAL-00004" summary="did the reviews and relinked all header reviews button to lead to the reviews.fixed up some css">
+      <option name="closed" value="true" />
+      <created>1736110939410</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736110939410</updated>
+    </task>
+    <task id="LOCAL-00005" summary="did the reviews and relinked all header reviews button to lead to the reviews.fixed up some css and mad one main css with the navigation styles and linked it to all pages.">
+      <option name="closed" value="true" />
+      <created>1736113340794</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736113340794</updated>
+    </task>
+    <task id="LOCAL-00006" summary="did the reviews and relinked all header reviews button to lead to the reviews.fixed up some css and mad one main css with the navigation styles and linked it to all pages.">
+      <option name="closed" value="true" />
+      <created>1736113499227</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1736113499227</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,5 +165,14 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Price form pages" />
+    <MESSAGE value="fixed up the headers on all pages and linked the homepage when you click the logo" />
+    <MESSAGE value="did the reviews and relinked all header reviews button to lead to the reviews." />
+    <MESSAGE value="did the reviews and relinked all header reviews button to lead to the reviews.fixed up some css" />
+    <MESSAGE value="did the reviews and relinked all header reviews button to lead to the reviews.fixed up some css and mad one main css with the navigation styles and linked it to all pages." />
+    <option name="LAST_COMMIT_MESSAGE" value="did the reviews and relinked all header reviews button to lead to the reviews.fixed up some css and mad one main css with the navigation styles and linked it to all pages." />
   </component>
 </project>

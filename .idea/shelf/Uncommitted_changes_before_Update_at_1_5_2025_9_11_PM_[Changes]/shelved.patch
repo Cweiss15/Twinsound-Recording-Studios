@@ -1,0 +1,102 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"96f758ee-1d16-4552-934a-abeea4e989c1\" name=\"Changes\" comment=\"Price form pages\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PREVIOUS_COMMIT_AUTHORS\">\r\n      <list>\r\n        <option value=\"Cweiss15 &lt;cweiss15@student.touro.edu&gt;\" />\r\n      </list>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;ChanaMandel&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/Cweiss15/TermProject&quot;,\r\n    &quot;accountId&quot;: &quot;ecceb8be-530d-4544-bd07-1c94eb9393ba&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 8\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2q2tc3gOz7i6ZKZ4trSmeNmouCQ\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;master&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/chana/PycharmProjects/TermProject&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\chana\\PycharmProjects\\TermProject\" />\r\n      <recent name=\"C:\\Users\\chana\\PycharmProjects\\TermProject\\chapter\" />\r\n      <recent name=\"C:\\Users\\chana\\PycharmProjects\\TermProject\\Etty\\css\" />\r\n      <recent name=\"C:\\Users\\chana\\PycharmProjects\\TermProject\\Etty\\js\" />\r\n      <recent name=\"C:\\Users\\chana\\PycharmProjects\\TermProject\\Etty\\html\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PY-242.21829.153\" />\r\n        <option value=\"bundled-python-sdk-464836ebc622-b74155a9e76b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.21829.153\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"96f758ee-1d16-4552-934a-abeea4e989c1\" name=\"Changes\" comment=\"\" />\r\n      <created>1733872573637</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1733872573637</updated>\r\n      <workItem from=\"1733872576713\" duration=\"17000\" />\r\n      <workItem from=\"1733872613932\" duration=\"3429000\" />\r\n      <workItem from=\"1733942389410\" duration=\"9000\" />\r\n      <workItem from=\"1733948167332\" duration=\"18000\" />\r\n      <workItem from=\"1733961311707\" duration=\"3849000\" />\r\n      <workItem from=\"1734044972396\" duration=\"1553000\" />\r\n      <workItem from=\"1734286711524\" duration=\"7452000\" />\r\n      <workItem from=\"1734294415492\" duration=\"48000\" />\r\n      <workItem from=\"1734391271145\" duration=\"10000\" />\r\n      <workItem from=\"1734643752679\" duration=\"5915000\" />\r\n      <workItem from=\"1735167495412\" duration=\"20766000\" />\r\n      <workItem from=\"1735845400408\" duration=\"4326000\" />\r\n      <workItem from=\"1735860951455\" duration=\"1374000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Price form pages\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1735865340207</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1735865340207</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Initial commit\" />\r\n    <MESSAGE value=\"Price form pages\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Price form pages\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision cacb9091a924c30f26c61fe0f3576da675be2be2)
++++ b/.idea/workspace.xml	(date 1736129409633)
+@@ -4,8 +4,11 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="96f758ee-1d16-4552-934a-abeea4e989c1" name="Changes" comment="Price form pages">
++    <list default="true" id="96f758ee-1d16-4552-934a-abeea4e989c1" name="Changes" comment="Updated link to Price form page on booking page and to home page from price page">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/termProject/Etty/css/PriceForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/termProject/Etty/css/PriceForm.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/termProject/Etty/html/PriceEstimate.html" beforeDir="false" afterPath="$PROJECT_DIR$/termProject/Etty/html/PriceEstimate.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/termProject/Etty/js/priceCalculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/termProject/Etty/js/priceCalculator.js" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -40,20 +43,21 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/chana/PycharmProjects/TermProject&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "JavaScript Debug.PriceEstimate.html.executor": "Debug",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "git-widget-placeholder": "master",
++    "last_opened_file_path": "C:/Users/chana/PycharmProjects/TermProject",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "settings.editor.selected.configurable": "vcs.Git",
++    "vue.rearranger.settings.migration": "true"
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="C:\Users\chana\PycharmProjects\TermProject" />
+@@ -91,7 +95,7 @@
+       <workItem from="1734643752679" duration="5915000" />
+       <workItem from="1735167495412" duration="20766000" />
+       <workItem from="1735845400408" duration="4326000" />
+-      <workItem from="1735860951455" duration="1374000" />
++      <workItem from="1735860951455" duration="14121000" />
+     </task>
+     <task id="LOCAL-00001" summary="Price form pages">
+       <option name="closed" value="true" />
+@@ -101,7 +105,23 @@
+       <option name="project" value="LOCAL" />
+       <updated>1735865340207</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="Price form pages">
++      <option name="closed" value="true" />
++      <created>1735865524656</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1735865524656</updated>
++    </task>
++    <task id="LOCAL-00003" summary="Updated link to Price form page on booking page and to home page from price page">
++      <option name="closed" value="true" />
++      <created>1735868186492</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1735868186492</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -110,6 +130,7 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="Initial commit" />
+     <MESSAGE value="Price form pages" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Price form pages" />
++    <MESSAGE value="Updated link to Price form page on booking page and to home page from price page" />
++    <option name="LAST_COMMIT_MESSAGE" value="Updated link to Price form page on booking page and to home page from price page" />
+   </component>
+ </project>
+\ No newline at end of file

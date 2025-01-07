@@ -65,6 +65,7 @@ function showTimes() {
         tableCell.addEventListener('click', function () {
             let paragraph = tableCell.querySelector('p');
             if (paragraph.classList.contains('available')) {
+                userName = prompt("To complete yor booking, Please enter your name:");
                 paragraph.classList.remove('available');
                 paragraph.classList.add('booked');
                 paragraph.innerHTML = "<br/>Booked by " + userName + "<br/>" + timeStart[i] + " - " + timeEnd[i];
@@ -77,6 +78,4 @@ function showTimes() {
         });
     }
 }
-window.addEventListener("load", function() {
-    userName = prompt("Please enter your name to view available times and to book:");
-});
+
