@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="96f758ee-1d16-4552-934a-abeea4e989c1" name="Changes" comment="updated css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/termProject/Etty/css/turbines.css" beforeDir="false" afterPath="$PROJECT_DIR$/termProject/Etty/css/bookings.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/termProject/Etty/html/bookings.html" beforeDir="false" afterPath="$PROJECT_DIR$/termProject/Etty/html/bookings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/termProject/Etty/js/js03.js" beforeDir="false" afterPath="$PROJECT_DIR$/termProject/Etty/js/bookings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/termProject/Etty/js/schedule.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +28,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Cweiss15/TermProject&quot;,
-    &quot;accountId&quot;: &quot;ecceb8be-530d-4544-bd07-1c94eb9393ba&quot;
+    &quot;url&quot;: &quot;https://github.com/Cweiss15/TermProject.git&quot;,
+    &quot;accountId&quot;: &quot;24699dcf-b5ed-4801-8f6c-dfee35a7d34d&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -104,6 +100,8 @@
       <workItem from="1735167495412" duration="20766000" />
       <workItem from="1735845400408" duration="4326000" />
       <workItem from="1735860951455" duration="1374000" />
+      <workItem from="1736390573850" duration="3213000" />
+      <workItem from="1736452199676" duration="4258000" />
     </task>
     <task id="LOCAL-00001" summary="Price form pages">
       <option name="closed" value="true" />
@@ -153,7 +151,31 @@
       <option name="project" value="LOCAL" />
       <updated>1736113499227</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="updated css">
+      <option name="closed" value="true" />
+      <created>1736390617005</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1736390617005</updated>
+    </task>
+    <task id="LOCAL-00008" summary="updated css">
+      <option name="closed" value="true" />
+      <created>1736390651096</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1736390651096</updated>
+    </task>
+    <task id="LOCAL-00009" summary="updated css">
+      <option name="closed" value="true" />
+      <created>1736453541512</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1736453541512</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +199,7 @@
     <MESSAGE value="did the reviews and relinked all header reviews button to lead to the reviews." />
     <MESSAGE value="did the reviews and relinked all header reviews button to lead to the reviews.fixed up some css" />
     <MESSAGE value="did the reviews and relinked all header reviews button to lead to the reviews.fixed up some css and mad one main css with the navigation styles and linked it to all pages." />
-    <option name="LAST_COMMIT_MESSAGE" value="did the reviews and relinked all header reviews button to lead to the reviews.fixed up some css and mad one main css with the navigation styles and linked it to all pages." />
+    <MESSAGE value="updated css" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated css" />
   </component>
 </project>
