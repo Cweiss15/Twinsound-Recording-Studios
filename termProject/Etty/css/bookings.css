@@ -155,3 +155,52 @@ footer {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+#button {
+    margin-left: 35px;
+    margin-top: 10px;
+    padding: 0;
+}
+
+#clickMe {
+    margin-left: 29px;
+    margin-top: 10px;
+
+}
+
+.overlay {
+    display: none;
+    position: fixed; /* Cover the entire viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 10, 160, 0.7);
+    z-index: 1000;
+
+}
+
+.overlayText {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%; /* Fill most of the screen width */
+    height: 80%; /* Fill most of the screen height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center; /* Center the text */
+    font-size: 2em; /* Make the font larger */
+    background-image: url("../images/overlayPhoto.png");
+    background-size: cover;
+
+}
+
+.overlayText p {
+    margin: 10px 0;
+    color: black;
+    text-shadow: 2px 2px 4px #ffffff;
+}

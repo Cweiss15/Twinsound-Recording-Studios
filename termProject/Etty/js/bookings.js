@@ -1,3 +1,24 @@
+// Days of the week
+let weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday",
+    "Thursday", "Friday", "Saturday"];
+
+// dates for availability
+let timeDates = ["2024-12-29", "2024-12-31", "2025-1-1", "2025-1-5", "2025-1-7", "2025-1-8",
+    "2025-1-12", "2025-1-14", "2025-1-15", "2025-1-19", "2025-1-21", "2025-1-22", "2025-1-26",
+    "2025-1-28", "2025-1-29"];
+
+// Start times
+let timeStart = ["1PM", "7PM", "7PM", "1PM", "7PM", "7PM", "1PM", "7PM", "7PM", "1PM", "7PM",
+    "7PM", "1PM", "7PM", "7PM"];
+
+// End times
+let timeEnd = ["3PM", "8pm", "8pm", "3PM", "8pm", "8pm", "3PM", "8pm", "8pm", "3PM", "8pm",
+    "8pm", "3PM", "8pm", "8pm"];
+
+// Time status to start
+let timeStatus = ["Booked", "Booked", "Available", "Available", "Available", "Available", "Available", "Available",
+    "Available", "Available", "Available", "Available", "Available", "Available", "Available"];
+
 let userName = "";
 
 // Function to write weekday names into the calendar
@@ -61,6 +82,7 @@ function showTimes() {
         });
     }
 }
+
 const musicButton = document.createElement("button");
 musicButton.className = "button";
 musicButton.id = "openOverlay";
@@ -72,7 +94,6 @@ musicButton.appendChild(notesImage);
 
 musicButton.innerHTML = '<img src="../images/playpause.png" alt="Button Image" style="width: 25px; height: 25px;">\n' +
     '\n' ;
-
 
 // Append the button to the aside
 const button = document.getElementById("button");
@@ -91,26 +112,9 @@ closeOverlayButton.addEventListener("click", () => {
     overlay.style.display = "none"
 });
 
-// Days of the week
-let weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday",
-    "Thursday", "Friday", "Saturday"];
 
-// dates for availability
-let timeDates = ["2024-12-29", "2024-12-31", "2025-1-1", "2025-1-5", "2025-1-7", "2025-1-8",
-    "2025-1-12", "2025-1-14", "2025-1-15", "2025-1-19", "2025-1-21", "2025-1-22", "2025-1-26",
-    "2025-1-28", "2025-1-29"];
 
-// Start times
-let timeStart = ["1PM", "7PM", "7PM", "1PM", "7PM", "7PM", "1PM", "7PM", "7PM", "1PM", "7PM",
-    "7PM", "1PM", "7PM", "7PM"];
 
-// End times
-let timeEnd = ["3PM", "8pm", "8pm", "3PM", "8pm", "8pm", "3PM", "8pm", "8pm", "3PM", "8pm",
-    "8pm", "3PM", "8pm", "8pm"];
-
-// Time status to start
-let timeStatus = ["Booked", "Booked", "Available", "Available", "Available", "Available", "Available", "Available",
-    "Available", "Available", "Available", "Available", "Available", "Available", "Available"];
 
 
 
