@@ -1,129 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-   <!--
-      JavaScript 7th Edition
-      Chapter 3
-      Chapter case
-
-
-      Calendar web page
-      Author: Chana Weiss
-      Date:   12/05/2024
-
-      Filename: bookings.html
-   -->
-   <meta charset="utf-8" />
-   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-   <title>Tipton Turbines - Calendar</title>
-   <link rel="stylesheet" media="screen and (min-device-width: 1000px)" href="../css/turbines.css" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Twinsound Recording Studios Booking Calendar</title>
+    <link rel="stylesheet" media="screen and (min-device-width: 1000px)" href="../css/bookings.css"/>
     <link href="http://fonts.googleapis.com/css?family=Maven+Pro:400,700,900" rel="stylesheet" type="text/css">
     <link href="../css/MusicStyle.css" rel="stylesheet"/>
-    <script src="../js/schedule.js" defer></script>
-    <script src="../js/js03.js" defer></script>
+    <script src="../js/bookings.js" defer></script>
 </head>
 
 <body>
 
-<header id = "header">
-    <a id="logo" href="homePage.html"><img src="../images/tr_top_logo2-removebg-preview.png" alt="Twinsound Recording Studios" /></a>
+<header id="header">
+    <a id="logo" href="homePage.html"><img src="../images/tr_top_logo2-removebg-preview.png"
+                                           alt="Twinsound Recording Studios"/></a>
     <nav>
-          <ul>
-              <li id="book"><a href="bookings.html"> Book a Session</a></li>
-              <li><a href="homePage.html#intro">About</a></li>
-              <li><a href="homePage.html#map">Location</a></li>
-              <li><a href="homePage.html#their-word">Reviews</a></li>
-              <li><a href="PriceEstimate.html">Pricing</a></li>
-              <li><a href="mailto:twinsound1026@gmail.com">Contact &#9993;</a></li>
-          </ul>
-      </nav>
+        <ul>
+            <li id="book"><a href="bookings.html"> Book a Session</a></li>
+            <li><a href="homePage.html#intro">About</a></li>
+            <li><a href="homePage.html#map">Location</a></li>
+            <li><a href="homePage.html#their-word">Reviews</a></li>
+            <li><a href="PriceEstimate.html">Pricing</a></li>
+            <li><a href="mailto:twinsound1026@gmail.com">Contact &#9993;</a></li>
+        </ul>
+    </nav>
 </header>
-
-   <div id="container">
-     <div id="clickMe"><br>click me</div>
-<div id="button"></div>
-      <article>
-         <h2>Booking Calendar</h2>
-         <table id="calendar">
-            <caption>January 2025</caption>
-            <thead>
-               <tr>
-                  <th></th>
-                  <th></th>
-                  <th></th>
-                  <th></th>
-                  <th></th>
-                  <th></th>
-                  <th></th>
-               </tr>
-            </thead>
-            <tbody>
-               <tr>
-						<td id="2024-12-29"><h1>29</h1></td>
-						<td id="2024-12-30"><h1>30</h1></td>
-						<td id="2024-12-31"><h1>31</h1></td>
-						<td id="2025-1-1"><h1>1</h1></td>
-						<td id="2025-1-2"><h1>2</h1></td>
-						<td id="2025-1-3"><h1>3</h1></td>
-						<td id="2025-1-4"><h1>4</h1></td>
-					</tr>	
-               <tr>
-						<td id="2025-1-5"><h1>5</h1></td>
-						<td id="2025-1-6"><h1>6</h1></td>
-						<td id="2025-1-7"><h1>7</h1></td>
-						<td id="2025-1-8"><h1>8</h1></td>
-						<td id="2025-1-9"><h1>9</h1></td>
-						<td id="2025-1-10"><h1>10</h1></td>
-						<td id="2025-1-11"><h1>11</h1></td>
-					</tr>	
-               <tr>
-						<td id="2025-1-12"><h1>12</h1></td>
-						<td id="2025-1-13"><h1>13</h1></td>
-						<td id="2025-1-14"><h1>14</h1></td>
-						<td id="2025-1-15"><h1>15</h1></td>
-						<td id="2025-1-16"><h1>16</h1></td>
-						<td id="2025-1-17"><h1>17</h1></td>
-						<td id="2025-1-18"><h1>18</h1></td>
-					</tr>
-			<tr>
-						<td id="2025-1-19"><h1>19</h1></td>
-						<td id="2025-1-20"><h1>20</h1></td>
-						<td id="2025-1-21"><h1>21</h1></td>
-						<td id="2025-1-22"><h1>22</h1></td>
-						<td id="2025-1-23"><h1>23</h1></td>
-						<td id="2025-1-24"><h1>24</h1></td>
-						<td id="2025-1-25"><h1>25</h1></td>
-					</tr>
-			<tr>
-						<td id="2025-1-26"><h1>26</h1></td>
-						<td id="2025-1-27"><h1>27</h1></td>
-						<td id="2025-1-28"><h1>28</h1></td>
-						<td id="2025-1-29"><h1>29</h1></td>
-						<td id="2025-1-30"><h1>30</h1></td>
-						<td id="2025-1-31"><h1>31</h1></td>
-						<td id="2025-2-1"><h1>1</h1></td>
-					</tr>
-            </tbody>
-				
-				<tfoot>
-					<tr>
-						<td> Available </td>
-						<td> Booked </td>
-					</tr>
-				</tfoot>
-         </table>
-      </article>
-       <div class="overlay" id="overlay">
-        <div class = "overlayText">
+<div id="container">
+    <div id="clickMe"><br>click me</div>
+    <div id="button"></div>
+    <div class="overlay" id="overlay">
+        <div class="overlayText">
             <p> Etty Werczberger, Chana Weiss, Chana Pesha Mandel </p>
             <p> MCON 104, Fall 2024.</p>
             <button id="closeOverlay">Close</button>
         </div>
     </div>
-      <footer>
-Twinsound Recording Studios &#8226; 1946 52nd st. Brooklyn N.Y&nbsp; 11204 &#8226; 917-635-4431
-      </footer>
-   </div>
+    <article>
+        <h2>Booking Calendar</h2>
+        <table id="calendar">
+            <caption>January 2025</caption>
+            <thead>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td id="2024-12-29"><h1>29</h1></td>
+                <td id="2024-12-30"><h1>30</h1></td>
+                <td id="2024-12-31"><h1>31</h1></td>
+                <td id="2025-1-1"><h1>1</h1></td>
+                <td id="2025-1-2"><h1>2</h1></td>
+                <td id="2025-1-3"><h1>3</h1></td>
+                <td id="2025-1-4"><h1>4</h1></td>
+            </tr>
+            <tr>
+                <td id="2025-1-5"><h1>5</h1></td>
+                <td id="2025-1-6"><h1>6</h1></td>
+                <td id="2025-1-7"><h1>7</h1></td>
+                <td id="2025-1-8"><h1>8</h1></td>
+                <td id="2025-1-9"><h1>9</h1></td>
+                <td id="2025-1-10"><h1>10</h1></td>
+                <td id="2025-1-11"><h1>11</h1></td>
+            </tr>
+            <tr>
+                <td id="2025-1-12"><h1>12</h1></td>
+                <td id="2025-1-13"><h1>13</h1></td>
+                <td id="2025-1-14"><h1>14</h1></td>
+                <td id="2025-1-15"><h1>15</h1></td>
+                <td id="2025-1-16"><h1>16</h1></td>
+                <td id="2025-1-17"><h1>17</h1></td>
+                <td id="2025-1-18"><h1>18</h1></td>
+            </tr>
+            <tr>
+                <td id="2025-1-19"><h1>19</h1></td>
+                <td id="2025-1-20"><h1>20</h1></td>
+                <td id="2025-1-21"><h1>21</h1></td>
+                <td id="2025-1-22"><h1>22</h1></td>
+                <td id="2025-1-23"><h1>23</h1></td>
+                <td id="2025-1-24"><h1>24</h1></td>
+                <td id="2025-1-25"><h1>25</h1></td>
+            </tr>
+            <tr>
+                <td id="2025-1-26"><h1>26</h1></td>
+                <td id="2025-1-27"><h1>27</h1></td>
+                <td id="2025-1-28"><h1>28</h1></td>
+                <td id="2025-1-29"><h1>29</h1></td>
+                <td id="2025-1-30"><h1>30</h1></td>
+                <td id="2025-1-31"><h1>31</h1></td>
+                <td id="2025-2-1"><h1>1</h1></td>
+            </tr>
+            </tbody>
+
+            <tfoot>
+            <tr>
+                <td> Available</td>
+                <td> Booked</td>
+            </tr>
+            </tfoot>
+        </table>
+    </article>
+    <footer>
+
+    </footer>
+</div>
 </body>
 </html>

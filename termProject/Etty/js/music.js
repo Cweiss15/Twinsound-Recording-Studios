@@ -15,14 +15,14 @@ descriptions[i].style.display = (descriptions[i].style.display === 'block') ? 'n
 const musicButton = document.createElement("button");
 musicButton.className = "button";
 musicButton.id = "openOverlay";
-musicButton.textContent= "Click Me"
+musicButton.textContent = "Click Me"
 
 // add the image for the button
 const notesImage = document.createElement("img");
 musicButton.appendChild(notesImage);
 
 musicButton.innerHTML = '<img src="../images/playpause.png" alt="Button Image" style="width: 25px; height: 25px;">\n' +
-    '\n' ;
+    '\n';
 
 
 // Append the button to the aside

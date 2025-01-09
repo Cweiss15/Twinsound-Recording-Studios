@@ -1,21 +1,10 @@
-/*  JavaScript 7th Edition
-    Chapter 3
-    Chapter case
-
-    Tipton Turbines
-    Large format style sheet
-
-    Filename: turbines.css
-*/
-
-/* apply a natural box layout model to all elements */
 * {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
-/* reset rules */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -37,7 +26,7 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
@@ -58,21 +47,13 @@ table {
     border-spacing: 0;
 }
 
-/* page header */
 
-/* main content */
-
-article{
-     border-top: 1px solid black;
-    padding-top: 5px;
-    box-shadow: 5px 5px 5px #000;
-;
-}
 article h2 {
     font-size: 1.2em;
     font-weight: bold;
     width: 182px;
     text-align: center;
+    padding: 10px 5px 0;
 }
 
 article p {
@@ -168,17 +149,20 @@ tfoot tr td {
     border: 0px solid white;
     padding: 10px 0;
 }
+
 footer {
     text-align: center;
     margin-top: 5px;
     margin-bottom: 5px;
 }
-#button{
+
+#button {
     margin-left: 35px;
     margin-top: 10px;
-    padding-bottom: 10px;
+    padding: 0;
 }
-#clickMe{
+
+#clickMe {
     margin-left: 29px;
     margin-top: 10px;
 
@@ -195,6 +179,7 @@ footer {
     align-items: center;
     background: rgba(255, 10, 160, 0.7);
     z-index: 1000;
+
 }
 
 .overlayText {
@@ -209,7 +194,7 @@ footer {
     align-items: center;
     text-align: center; /* Center the text */
     font-size: 2em; /* Make the font larger */
-background-image: url("../images/overlayPhoto.png");
+    background-image: url("../images/overlayPhoto.png");
     background-size: cover;
 
 }
