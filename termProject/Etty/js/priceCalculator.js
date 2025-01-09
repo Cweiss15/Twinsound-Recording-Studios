@@ -12,7 +12,7 @@ const VOCAL_REMOVER_COST = 25;
 const ADD_PERSON_COST = 25;
 
 window.addEventListener("load", setupForm);
-
+window.addEventListener("load", time);
 function setupForm() {
     document.getElementById("hours").value = 1;
     document.getElementById("people").value =1;
@@ -76,3 +76,27 @@ musicButton.addEventListener("click", () => {
 closeOverlayButton.addEventListener("click", () => {
     overlay.style.display = "none"
 });
+
+function time() {
+    let now = new Date();
+    let endDate = new Date ("2025-01-09");
+    let timeDifference = now - endDate;
+    // Convert time difference to days
+    const daysDifference = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+    // return the result
+    daysDifference.toLocaleString();
+    endDate.toLocaleDateString();
+    now.toLocaleDateString();
+     return {
+         daysDifference ,
+         endDate,
+         now
+     };
+}
+let result = time();
+let timestamp = document.getElementById("footer");
+timestamp.innerText = `The difference in days since last modified is: ${result.daysDifference} days.`;
+
+let date = document.createElement("p");
+date.innerText = `Date last modified: ${result.endDate}. Today's date is ${result.now}.`;
+timestamp.appendChild(date);
