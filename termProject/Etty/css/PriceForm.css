@@ -165,6 +165,11 @@ footer {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+#clickMe{
+    margin-left: 29px;
+    margin-top: 10px;
+
+}
 
 .overlay {
     display: none;
@@ -191,11 +196,18 @@ footer {
     align-items: center;
     text-align: center; /* Center the text */
     font-size: 2em; /* Make the font larger */
+background-image: url("../images/overlayPhoto.png");
+    background-size: cover;
+
 }
 
 .overlayText p {
     margin: 10px 0;
+    color: black;
+    text-shadow: 2px 2px 4px #ffffff;
 }
+
+
 #button{
     margin-left: 35px;
     margin-top: 10px;
