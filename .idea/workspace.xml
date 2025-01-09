@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96f758ee-1d16-4552-934a-abeea4e989c1" name="Changes" comment="updated css">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="96f758ee-1d16-4552-934a-abeea4e989c1" name="Changes" comment="added an overlay displaying our names and the course as per the requirements, and formatted it." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,8 +26,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Cweiss15/TermProject.git&quot;,
-    &quot;accountId&quot;: &quot;24699dcf-b5ed-4801-8f6c-dfee35a7d34d&quot;
+    &quot;url&quot;: &quot;https://github.com/Cweiss15/TermProject&quot;,
+    &quot;accountId&quot;: &quot;ecceb8be-530d-4544-bd07-1c94eb9393ba&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -42,18 +40,15 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.PriceEstimate.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.bookings.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.homePage.html.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/chana/PycharmProjects/TermProject&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Chana/PycharmProjects/TermProject&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -64,11 +59,6 @@
       <recent name="C:\Users\chana\PycharmProjects\TermProject\Etty\css" />
       <recent name="C:\Users\chana\PycharmProjects\TermProject\Etty\js" />
       <recent name="C:\Users\chana\PycharmProjects\TermProject\Etty\html" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ettyw\PycharmProjects\TermProject7\termProject\Etty\css" />
-      <recent name="C:\Users\ettyw\PycharmProjects\TermProject7\termProject\Etty\html" />
-      <recent name="C:\Users\ettyw\PycharmProjects\TermProject7\termProject\Etty\images" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -100,8 +90,7 @@
       <workItem from="1735167495412" duration="20766000" />
       <workItem from="1735845400408" duration="4326000" />
       <workItem from="1735860951455" duration="1374000" />
-      <workItem from="1736390573850" duration="3213000" />
-      <workItem from="1736452199676" duration="4258000" />
+      <workItem from="1736211730374" duration="2896000" />
     </task>
     <task id="LOCAL-00001" summary="Price form pages">
       <option name="closed" value="true" />
@@ -111,71 +100,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735865340207</updated>
     </task>
-    <task id="LOCAL-00002" summary="fixed up the headers on all pages and linked the homepage when you click the logo">
+    <task id="LOCAL-00002" summary="added an overlay displaying our names and the course as per the requirements, and formatted it.">
       <option name="closed" value="true" />
-      <created>1735883053999</created>
+      <created>1736210933847</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1735883053999</updated>
+      <updated>1736210933847</updated>
     </task>
-    <task id="LOCAL-00003" summary="did the reviews and relinked all header reviews button to lead to the reviews.">
+    <task id="LOCAL-00003" summary="added an overlay displaying our names and the course as per the requirements, and formatted it.">
       <option name="closed" value="true" />
-      <created>1736109763180</created>
+      <created>1736212938012</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1736109763180</updated>
+      <updated>1736212938012</updated>
     </task>
-    <task id="LOCAL-00004" summary="did the reviews and relinked all header reviews button to lead to the reviews.fixed up some css">
-      <option name="closed" value="true" />
-      <created>1736110939410</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1736110939410</updated>
-    </task>
-    <task id="LOCAL-00005" summary="did the reviews and relinked all header reviews button to lead to the reviews.fixed up some css and mad one main css with the navigation styles and linked it to all pages.">
-      <option name="closed" value="true" />
-      <created>1736113340794</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1736113340794</updated>
-    </task>
-    <task id="LOCAL-00006" summary="did the reviews and relinked all header reviews button to lead to the reviews.fixed up some css and mad one main css with the navigation styles and linked it to all pages.">
-      <option name="closed" value="true" />
-      <created>1736113499227</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1736113499227</updated>
-    </task>
-    <task id="LOCAL-00007" summary="updated css">
-      <option name="closed" value="true" />
-      <created>1736390617005</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1736390617005</updated>
-    </task>
-    <task id="LOCAL-00008" summary="updated css">
-      <option name="closed" value="true" />
-      <created>1736390651096</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1736390651096</updated>
-    </task>
-    <task id="LOCAL-00009" summary="updated css">
-      <option name="closed" value="true" />
-      <created>1736453541512</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1736453541512</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,11 +136,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Price form pages" />
-    <MESSAGE value="fixed up the headers on all pages and linked the homepage when you click the logo" />
-    <MESSAGE value="did the reviews and relinked all header reviews button to lead to the reviews." />
-    <MESSAGE value="did the reviews and relinked all header reviews button to lead to the reviews.fixed up some css" />
-    <MESSAGE value="did the reviews and relinked all header reviews button to lead to the reviews.fixed up some css and mad one main css with the navigation styles and linked it to all pages." />
-    <MESSAGE value="updated css" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated css" />
+    <MESSAGE value="overlay on PriceForm" />
+    <MESSAGE value="added an overlay displaying our names and the course as per the requirements, and formatted it." />
+    <option name="LAST_COMMIT_MESSAGE" value="added an overlay displaying our names and the course as per the requirements, and formatted it." />
   </component>
 </project>
