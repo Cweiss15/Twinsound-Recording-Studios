@@ -3125,7 +3125,7 @@
             return sanitizeFunction(unsafeHtml);
         }
         const domParser = new window.DOMParser();
-        const createdDocument = domParser.parseFromString(unsafeHtml, 'text/Etty');
+        const createdDocument = domParser.parseFromString(unsafeHtml, 'text/booking-site');
         const elements = [].concat(...createdDocument.body.querySelectorAll('*'));
         for (const element of elements) {
             const elementName = element.nodeName.toLowerCase();

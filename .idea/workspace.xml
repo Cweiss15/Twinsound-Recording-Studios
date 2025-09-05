@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96f758ee-1d16-4552-934a-abeea4e989c1" name="Changes" comment="added an overlay displaying our names and the course as per the requirements, and formatted it." />
+    <list default="true" id="96f758ee-1d16-4552-934a-abeea4e989c1" name="Changes" comment="updated css">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_2_2025_8_15_PM_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_2_2025_8_15_PM__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,8 +30,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Cweiss15/TermProject&quot;,
-    &quot;accountId&quot;: &quot;ecceb8be-530d-4544-bd07-1c94eb9393ba&quot;
+    &quot;url&quot;: &quot;https://github.com/Cweiss15/TermProject.git&quot;,
+    &quot;accountId&quot;: &quot;24699dcf-b5ed-4801-8f6c-dfee35a7d34d&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -91,6 +95,8 @@
       <workItem from="1735845400408" duration="4326000" />
       <workItem from="1735860951455" duration="1374000" />
       <workItem from="1736211730374" duration="2896000" />
+      <workItem from="1756439943938" duration="38000" />
+      <workItem from="1756955435719" duration="4187000" />
     </task>
     <task id="LOCAL-00001" summary="Price form pages">
       <option name="closed" value="true" />
